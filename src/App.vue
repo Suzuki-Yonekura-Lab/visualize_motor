@@ -3,7 +3,7 @@
     <MyHeader />
     <main>
       <div class="content">
-        <HelloWorld/>
+        <Visualize/>
       </div>
     </main>
     <MyFooter />
@@ -11,14 +11,15 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import Visualize from './components/Visualize1D.vue'
+import Visualize from './components/Visualize2D.vue'
 import MyHeader from './components/MyHeader.vue'
 import MyFooter from './components/MyFooter.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Visualize,
     MyHeader,
     MyFooter
   }

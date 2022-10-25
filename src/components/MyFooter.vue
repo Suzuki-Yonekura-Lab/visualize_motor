@@ -2,7 +2,7 @@
     <footer class="footer">
         <div class="footer__inner footer--border-top-gray">
             <small class="footer-copyright">
-                © Masayuki Tamura
+                {{ new Date().getFullYear() }} © Masayuki Tamura
             </small>
         </div>
     </footer>
